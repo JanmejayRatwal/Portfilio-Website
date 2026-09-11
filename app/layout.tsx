@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Janmejay Ratwal — software developer building intelligent developer tools, backend systems, automation and AI/ML projects.",
   icons: {
-    icon: "/icon.svg",
+    icon: "/icon.ico",
   },
 };
 
