@@ -382,6 +382,91 @@ export default function Home() {
                 Machine Learning
               </span>
             </div>
+
+          </div>
+          <div className="group md:col-span-2 rounded-3xl border border-white/10 bg-white/[0.03] p-10 transition duration-500 hover:-translate-y-1 hover:border-purple-400/30 hover:bg-white/[0.05] hover:shadow-[0_20px_80px_rgba(88,28,135,0.15)]">
+
+            {/* Project Visual */}
+            <div className="mb-8 grid h-56 grid-cols-2 gap-2 overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-2">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  src="/projects/portfolio-hero.png"
+                  alt="Portfolio Website hero"
+                  className="h-full w-full object-cover object-top"
+                />
+              </div>
+
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  src="/projects/portfolio-about.png"
+                  alt="Portfolio Website about section"
+                  className="h-full w-full object-cover object-top"
+                />
+              </div>
+            </div>
+
+            {/*<h3 className="text-2xl font-semibold">
+              Portfolio Website
+            </h3>*/}
+
+            {/* Project Category */}
+            <div className="mb-4 flex items-center justify-between">
+              <span className="rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-xs text-purple-300">
+                Web Development
+              </span>
+
+              <div className="flex gap-4">
+                <a
+                  href="https://janmejayr.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-white/40 transition hover:text-white"
+                >
+                  Live ↗
+                </a>
+
+                <a
+                  href="YOUR-ACTUAL-GITHUB-REPO-URL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-white/40 transition hover:text-white"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+
+            {/* Project Name */}
+            <h3 className="text-2xl font-semibold">
+              Portfolio Website
+            </h3>
+
+            {/* Description */}
+            <p className="mt-4 leading-7 text-white/50">
+              A production-ready developer portfolio built with Next.js,
+              TypeScript, and Tailwind CSS to showcase my software engineering
+              projects and technical work.
+            </p>
+
+            {/* Technologies */}
+            <div className="mt-8 flex flex-wrap gap-2">
+              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-white/60">
+                Next.js
+              </span>
+
+              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-white/60">
+                TypeScript
+              </span>
+
+              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-white/60">
+                Tailwind CSS
+              </span>
+
+              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-white/60">
+                Vercel
+              </span>
+            </div>
+
           </div>
         </div>
       </section>
