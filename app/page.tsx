@@ -426,7 +426,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="YOUR-ACTUAL-GITHUB-REPO-URL"
+                  href="https://github.com/JanmejayRatwal/Portfilio-Website"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-white/40 transition hover:text-white"
